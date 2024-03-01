@@ -68,7 +68,7 @@ def crawl_detail(city, location_id):
             data = response.json()
             with open(f"data_crawl/{city}/detail/{location_id}.json", "w") as outfile:
                 outfile.write(json.dumps(data))
-        print(f"{city}: detail {location_id} success")
+            print(f"{city}: detail {location_id} success")
     except Exception as e:
         log = {
             "location_id": location_id,
