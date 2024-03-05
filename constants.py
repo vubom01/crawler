@@ -26,5 +26,18 @@
 #            28944, 28958, 28937, 28967, 28949, 28948, 28927, 28947, 28968, 28933, 28973, 28965, 28957, 28952, 28924,
 #            28923, 28932]
 
-cities = ['India']
-geo_ids = [293860]
+# cities = ['India']
+# geo_ids = [293860]
+
+cities = ['Uttar_Pradesh', 'Maharashtra', 'Bihar', 'West_Bengal', 'Madhya_Pradesh', 'Tamil_Nadu', 'Rajasthan',
+          'Karnataka', 'Gujarat', 'Andhra_Pradesh', 'Odisha', 'Telangana', 'Kerala', 'Jharkhand', 'Assam',
+          'Punjab', 'Chhattisgarh', 'Haryana', 'Jammu_and_Kashmir', 'Uttarakhand', 'Himachal_Pradesh', 'Tripura',
+          'Meghalaya', 'Manipur', 'Nagaland', 'Goa', 'Arunachal_Pradesh', 'Mizoram', 'Sikkim',
+          'National_Capital_Territory_of_Delhi', 'Union_Territory_of_Pondicherry', 'Chandigarh',
+          'Andaman_and_Nicobar_Islands', 'Dadra_and_Nagar_Haveli', 'Daman_and_Diu', 'Lakshadweep']
+geo_ids = [297682, 297648, 297591, 297692, 297646, 297674, 297665,
+           297627, 297607, 297585, 297660, 7058854, 297631, 297626, 297590,
+           297663, 297594, 297614, 297619, 297686, 297617, 297681,
+           297657, 297656, 297659, 297604, 297589, 297658, 297673,
+           297602, 297662, 297596,
+           297583, 297597, 297599, 297640]
