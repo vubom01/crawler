@@ -82,3 +82,5 @@ venv/*
 .vscode
 pkgs/*
 
+./data_crawl
+./logging
