@@ -11,7 +11,6 @@
 #            28923, 28932]
 
 # cities = ['Japan']
-#
 # geo_ids = [294232]
 
 # cities = ['New_Jersey', 'Georgia', 'Connecticut', 'Massachusetts', 'Maryland',
@@ -34,10 +33,10 @@ cities = ['Uttar_Pradesh', 'Maharashtra', 'Bihar', 'West_Bengal', 'Madhya_Prades
           'Punjab', 'Chhattisgarh', 'Haryana', 'Jammu_and_Kashmir', 'Uttarakhand', 'Himachal_Pradesh', 'Tripura',
           'Meghalaya', 'Manipur', 'Nagaland', 'Goa', 'Arunachal_Pradesh', 'Mizoram', 'Sikkim',
           'National_Capital_Territory_of_Delhi', 'Union_Territory_of_Pondicherry', 'Chandigarh',
-          'Andaman_and_Nicobar_Islands', 'Dadra_and_Nagar_Haveli', 'Daman_and_Diu', 'Lakshadweep']
+          'Andaman_and_Nicobar_Islands', 'Dadra_and_Nagar_Haveli', 'Daman_and_Diu', 'Lakshadweep', 'India']
 geo_ids = [297682, 297648, 297591, 297692, 297646, 297674, 297665,
            297627, 297607, 297585, 297660, 7058854, 297631, 297626, 297590,
            297663, 297594, 297614, 297619, 297686, 297617, 297681,
            297657, 297656, 297659, 297604, 297589, 297658, 297673,
            297602, 297662, 297596,
-           297583, 297597, 297599, 297640]
+           297583, 297597, 297599, 297640, 293860]
