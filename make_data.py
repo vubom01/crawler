@@ -138,7 +138,7 @@ def import_to_db():
                     poi = {
                         'name': data.get("name"),
                         'type': poi_type,
-                        'images': None,
+                        'image': None,
                         'address': address,
                         'lat': data.get("latitude"),
                         'lng': data.get("longitude"),
