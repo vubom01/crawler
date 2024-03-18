@@ -16,7 +16,7 @@ def get_restaurants(c, location_dict):
         response = json.load(f)
         data = []
         for item in response:
-            if (item.get("data").get("response") is not None and
+            if (type(item) != str and item.get("data").get("response") is not None and
                     item.get("data").get("response").get("restaurants") is not None):
                 data = item.get("data").get("response").get("restaurants")
                 break
