@@ -160,7 +160,7 @@ def import_to_db():
         index = 0
         while index < len(pois):
             with open(f"total/{city}-{index}.json", "w") as outfile:
-                outfile.write(json.dumps(pois[index:10000]))
+                outfile.write(json.dumps(pois[index:index + 10000]))
             index += 10000
         # with open(f"total/{city}.json", "w") as outfile:
         #     outfile.write(json.dumps(pois))
