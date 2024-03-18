@@ -157,9 +157,13 @@ def import_to_db():
         pois = pois + get_restaurants(city, location_dict)
         pois = pois + get_hotels(city, location_dict)
         pois = pois + get_attractions(city, location_dict)
-        print(len(pois))
-        with open(f"total/{city}.json", "w") as outfile:
-            outfile.write(json.dumps(pois))
+        index = 0
+        while index < len(pois):
+            with open(f"total/{city}-{index}.json", "w") as outfile:
+                outfile.write(json.dumps(pois[index:10000]))
+            index += 10000
+        # with open(f"total/{city}.json", "w") as outfile:
+        #     outfile.write(json.dumps(pois))
         print(f"DONE MAKE DATA {city}")
 
 
