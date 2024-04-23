@@ -41,5 +41,7 @@
 # cities = ['Hokkaido', 'Tohoku', 'Kanto', 'Chubu', 'Kinki', 'Chugoku', 'Shikoku', 'Kyushu', 'Okinawa_Prefecture']
 # geo_ids = [298143, 298237, 298156, 298102, 298189, 298129, 298228, 298205, 298221]
 
-cities = ['Bali']
-geo_ids = [294226]
+cities = ['Sumatra', 'Bali', 'Java', 'Kalimantan', 'Maluku_Islands', 'Sulawesi', 'East_Nusa_Tenggara',
+          'West_Nusa_Tenggara', 'Papua', 'Riau_Islands_Province']
+geo_ids = [294231, 294226, 294228, 294227, 800476, 297719, 297728,
+           297732, 297702, 297716]
