@@ -21,9 +21,7 @@ for file_name in dir_list:
     f = open(f"{path}/{file_name}")
     data = json.load(f)
     res = res + data
-
-print(len(res))
-
+# print(res[0])
 for item in res:
     type = 0
     if item["type"] == "attraction":
@@ -32,9 +30,14 @@ for item in res:
         type = 2
     if item["type"] == "restaurant":
         type = 3
+
     if item["address"] and len(item["address"]) > 500:
         item["address"] = None
+    if item["contact_email"] and len(item["contact_email"]) > 400:
+        item["contact_email"] = None
+
     data = (item["name"], type, item.get("image"), item["address"], item["lat"], item["lng"], item["ref_id"],
-            item["rating"], item["num_reviews"], item["website"], item["contact_phone"], item["contact_email"])
+            item["rating"], item.get('numberReviews') if item.get('numberReviews') else 0, item["website"],
+            item["contact_phone"], item["contact_email"])
     mycursor.execute(sql, data)
     mydb.commit()

@@ -38,5 +38,8 @@
 #            297602, 297662, 297596,
 #            297583, 297597, 297599, 297640, 293860]
 
-cities = ['Hokkaido', 'Tohoku', 'Kanto', 'Chubu', 'Kinki', 'Chugoku', 'Shikoku', 'Kyushu', 'Okinawa_Prefecture']
-geo_ids = [298143, 298237, 298156, 298102, 298189, 298129, 298228, 298205, 298221]
+# cities = ['Hokkaido', 'Tohoku', 'Kanto', 'Chubu', 'Kinki', 'Chugoku', 'Shikoku', 'Kyushu', 'Okinawa_Prefecture']
+# geo_ids = [298143, 298237, 298156, 298102, 298189, 298129, 298228, 298205, 298221]
+
+cities = ['Bali']
+geo_ids = [294226]
