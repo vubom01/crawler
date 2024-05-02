@@ -65,28 +65,28 @@ if __name__ == "__main__":
         create_folder_in_data_crawl(city)
         create_folder_in_logging(city)
 
-        # t1 = threading.Thread(target=crawl_attractions, args=(geo_id, city))
-        # t2 = threading.Thread(target=crawl_hotels, args=(geo_id, city))
+        t1 = threading.Thread(target=crawl_attractions, args=(geo_id, city))
+        t2 = threading.Thread(target=crawl_hotels, args=(geo_id, city))
         t3 = threading.Thread(target=crawl_all_restaurants, args=(geo_id, city))
         # t4 = threading.Thread(target=crawl_restaurants, args=(geo_id, city))
 
-        # t1.start()
-        # t2.start()
+        t1.start()
+        t2.start()
         t3.start()
         # t4.start()
 
-        # t1.join()
-        # t2.join()
+        t1.join()
+        t2.join()
         t3.join()
         # t4.join()
 
-        # location_ids_attractions = get_attraction_location_id(city)
-        # location_ids_hotels = get_hotels_location_id(city)
+        location_ids_attractions = get_attraction_location_id(city)
+        location_ids_hotels = get_hotels_location_id(city)
         location_ids_restaurants = get_restaurants_location_id(city)
 
-        # location_ids = location_ids_restaurants + location_ids_hotels + location_ids_attractions
-        location_ids = location_ids_restaurants
-        # location_ids = location_ids_hotels
+        location_ids = location_ids_restaurants + location_ids_hotels + location_ids_attractions
+        # location_ids = location_ids_restaurants
+        # location_ids = location_ids_hotels + location_ids_attractions
         # location_ids = location_ids_attractions
 
         location_ids = list(set(location_ids))

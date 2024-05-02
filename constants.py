@@ -46,5 +46,42 @@
 # geo_ids = [294231, 294226, 294228, 294227, 800476, 297719, 297728,
 #            297732, 297702, 297716]
 
-cities = ['Indonesia']
-geo_ids = [294225]
+# cities = ['Indonesia']
+# geo_ids = [294225]
+
+cities = ["Bangkok", "Amnat_Charoen_Province", "Ang_Thong_Province", "Bueng_Kan_Province", "Buriram_Province",
+          "Chachoengsao_Province", "Chainat_Province", "Chaiyaphum_Province", "Chanthaburi_Province",
+          "Chiang_Mai_Province", "Chiang_Rai_Province", "Chonburi_Province", "Chumphon_Province",
+          "Kalasin_Province", "Kamphaeng_Phet_Province", "Kanchanaburi_Province", "Khon_Kaen_Province",
+          "Krabi_Province", "Lampang_Province", "Lamphun_Province", "Loei_Loei_Province", "Lopburi_Province",
+          "Mae_Hong_Son_Province", "Maha_Sarakham_Province", "Mukdahan_Province", "Nakhon_Nayok_Province",
+          "Nakhon_Pathom_Province", "Nakhon_Phanom_Province", "Nakhon_Ratchasima_Province",
+          "Nakhon_Sawan_Province", "Nakhon_Si_Thammarat_Province", "Nan_Province", "Narathiwat_Province",
+          "Nong_Bua_Lamphu_Province", "Nong_Khai_Province", "Nonthaburi_Province", "Pathum_Thani_Province",
+          "Pattani_Province", "Phang_Nga_Province", "Phatthalung_Province", "Phayao_Province",
+          "Phetchabun_Province", "Phetchaburi_Province", "Phichit_Province", "Phitsanulok_Province",
+          "Ayutthaya_Province", "Phrae_Province", "Phuket", "Prachin_Buri_Province", "Prachuap_Khiri_Khan_Province",
+          "Ranong_Province", "Ratchaburi_Province", "Rayong_Province", "Roi_Et_Province", "Sa_Kaeo_Province",
+          "Sakon_Nakhon_Province", "Samut_Prakan_Province", "Samut_Sakhon_Province", "Samut_Songkhram_Province",
+          "Saraburi_Province", "Satun_Province", "Sing_Buri_Province", "Sisaket_Province", "Songkhla_Province",
+          "Sukhothai_Province", "Suphan_Buri_Province", "Surat_Thani_Province", "Surin_Province", "Tak_Province",
+          "Trang_Province", "Trat_Province", "Ubon_Ratchathani_Province", "Udon_Thani_Province",
+          "Uthai_Thani_Province", "Uttaradit_Province", "Yala_Province", "Yasothon_Province"]
+geo_ids = [293916, 2234018, 2216103, 2098311, 2098319,
+           2098322, 2098328, 2098330, 2098339,
+           1308496, 1396421, 2098164, 2098280,
+           2098284, 2098287, 2098110, 2098348,
+           1499981, 2098350, 2098392, 311302, 2098396,
+           2098173, 2098401, 2098406, 2099372,
+           2098409, 2098411, 2098196,
+           2098416, 2098421, 2098427, 2098431,
+           2154412, 2098436, 2098455, 2098559,
+           2234019, 2043912, 2234021, 2234016,
+           2098205, 2098210, 2098563, 2098566,
+           2098306, 2098625, 293920, 2098630, 297933,
+           2098638, 2098641, 2098646, 2098649, 2098654,
+           2098656, 2098222, 1056228, 2098662,
+           2099414, 2099201, 2099206, 2099214, 2098239,
+           2099220, 2099228, 2099231, 2099297, 1773295,
+           297938, 2099338, 2099345, 2099348,
+           616040, 2234017, 2099351, 2099354]

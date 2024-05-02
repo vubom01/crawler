@@ -36,8 +36,14 @@ for item in res:
     if item["contact_email"] and len(item["contact_email"]) > 400:
         item["contact_email"] = None
 
+    numReviews = str(item.get('numberReviews') if item.get('numberReviews') else 0)
+    numReviews = int(numReviews.replace(",", ""))
+
     data = (item["name"], type, item.get("image"), item["address"], item["lat"], item["lng"], item["ref_id"],
-            item["rating"], item.get('numberReviews') if item.get('numberReviews') else 0, item["website"],
+            item["rating"], numReviews, item["website"],
             item["contact_phone"], item["contact_email"])
-    mycursor.execute(sql, data)
-    mydb.commit()
+    try:
+        mycursor.execute(sql, data)
+        mydb.commit()
+    except:
+        print(item.get("numberReviews"))
