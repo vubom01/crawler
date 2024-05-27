@@ -65,18 +65,18 @@ if __name__ == "__main__":
         create_folder_in_data_crawl(city)
         create_folder_in_logging(city)
 
-        # t1 = threading.Thread(target=crawl_attractions, args=(geo_id, city))
-        # t2 = threading.Thread(target=crawl_hotels, args=(geo_id, city))
+        t1 = threading.Thread(target=crawl_attractions, args=(geo_id, city))
+        t2 = threading.Thread(target=crawl_hotels, args=(geo_id, city))
         t3 = threading.Thread(target=crawl_all_restaurants, args=(geo_id, city))
         # t4 = threading.Thread(target=crawl_restaurants, args=(geo_id, city))
 
-        # t1.start()
-        # t2.start()
+        t1.start()
+        t2.start()
         t3.start()
         # t4.start()
 
-        # t1.join()
-        # t2.join()
+        t1.join()
+        t2.join()
         t3.join()
         # t4.join()
 
