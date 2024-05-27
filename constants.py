@@ -86,5 +86,8 @@
 #            297938, 2099338, 2099345, 2099348,
 #            616040, 2234017, 2099351, 2099354]
 
-cities = ["Pakistan"]
-geo_ids = [293959]
+# cities = ["Pakistan"]
+# geo_ids = [293959]
+
+cities = ["Bangladesh", "Nigeria"]
+geo_ids = [293935, 293824]
