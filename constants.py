@@ -89,5 +89,8 @@
 # cities = ["Pakistan"]
 # geo_ids = [293959]
 
-cities = ["Bangladesh", "Nigeria"]
-geo_ids = [293935, 293824]
+# cities = ["Bangladesh", "Nigeria"]
+# geo_ids = [293935, 293824]
+
+cities = ["Luzon", "Visayas", "Mindanao"]
+geo_ids = [294248, 294258, 294252]
