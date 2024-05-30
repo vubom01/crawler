@@ -92,5 +92,10 @@
 # cities = ["Bangladesh", "Nigeria"]
 # geo_ids = [293935, 293824]
 
-cities = ["Luzon", "Visayas", "Mindanao"]
-geo_ids = [294248, 294258, 294252]
+# cities = ["Luzon", "Visayas", "Mindanao"]
+# geo_ids = [294248, 294258, 294252]
+
+cities = ["Berlin", "Hamburg", "Bavaria", "North_Rhine_Westphalia", "Hesse", "Baden_Wurttemberg",
+          "State_of_Bremen", "Lower_Saxony", "Saxony"]
+geo_ids = [187323, 187331, 187293, 187366, 187332, 187276,
+           187324, 187347, 187397]
