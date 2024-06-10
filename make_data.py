@@ -58,11 +58,13 @@ def get_hotels(c, location_dict):
                     if item.get("location") is not None and item.get("location").get("reviewSummary") is not None:
                         poi["rating"] = item.get("location").get("reviewSummary").get("rating")
                         poi["numberReviews"] = item.get("location").get("reviewSummary").get("count")
-                    thumbnail = item.get("location").get("thumbnail")
-                    if thumbnail is not None and thumbnail.get("photoSizeDynamic") is not None:
-                        imageURL = thumbnail.get("photoSizeDynamic").get("urlTemplate")
-                        imageURL = imageURL.replace("w={width}&h={height}", "w=1000")
-                        poi["image"] = imageURL
+
+                    if item.get("location") is not None:
+                        thumbnail = item.get("location").get("thumbnail")
+                        if thumbnail is not None and thumbnail.get("photoSizeDynamic") is not None:
+                            imageURL = thumbnail.get("photoSizeDynamic").get("urlTemplate")
+                            imageURL = imageURL.replace("w={width}&h={height}", "w=1000")
+                            poi["image"] = imageURL
                     pois.append(poi)
     return pois
 
