@@ -55,7 +55,7 @@ def get_hotels(c, location_dict):
                 seen.add(location_id)
                 if location_id in location_dict:
                     poi = location_dict[location_id]
-                    if item.get("location").get("reviewSummary") is not None:
+                    if item.get("location") is not None and item.get("location").get("reviewSummary") is not None:
                         poi["rating"] = item.get("location").get("reviewSummary").get("rating")
                         poi["numberReviews"] = item.get("location").get("reviewSummary").get("count")
                     thumbnail = item.get("location").get("thumbnail")
