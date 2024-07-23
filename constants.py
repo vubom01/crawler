@@ -162,13 +162,18 @@
 #            187206, 196659,
 #            187144]
 
-cities = ["Cairo_Governorate", "Alexandria_Governorate", "Giza_Governorate", "Qalyubia_Governorate",
-          "Port_Said_Governorate", "Suez_Governorate", "Nile_River_Valley", "Ad_Daqahliyah_Governorate",
-          "Gharbia_Governorate", "Ismailia_Governorate", "Al_Fayyum_Governorate", "Sharqia_Governorate",
-          "Damietta_Governorate", "Beheira_Governorate", "Al_Minya_Governorate", "Beni_Suef_Governorate",
-          "Red_Sea_and_Sinai", "Kafr_el_Shaikh_Governorate", "Matrouh_Governorate"]
-geo_ids = [3688720, 2625781, 3688715, 3611272,
-           2630295, 2630310, 294203, 2625777,
-           2630285, 2625791, 2625778, 2630288,
-           2625789, 2630281, 2625780, 2625788,
-           297545, 2625792, 2625794]
+# cities = ["Cairo_Governorate", "Alexandria_Governorate", "Giza_Governorate", "Qalyubia_Governorate",
+#           "Port_Said_Governorate", "Suez_Governorate", "Nile_River_Valley", "Ad_Daqahliyah_Governorate",
+#           "Gharbia_Governorate", "Ismailia_Governorate", "Al_Fayyum_Governorate", "Sharqia_Governorate",
+#           "Damietta_Governorate", "Beheira_Governorate", "Al_Minya_Governorate", "Beni_Suef_Governorate",
+#           "Red_Sea_and_Sinai", "Kafr_el_Shaikh_Governorate", "Matrouh_Governorate"]
+# geo_ids = [3688720, 2625781, 3688715, 3611272,
+#            2630295, 2630310, 294203, 2625777,
+#            2630285, 2625791, 2625778, 2630288,
+#            2625789, 2630281, 2625780, 2625788,
+#            297545, 2625792, 2625794]
+
+cities = ["Ontario", "Quebec", "Nova_Scotia", "New_Brunswick", "Manitoba", "British_Columbia", "Saskatchewan",
+          "Alberta", "Newfoundland_and_Labrador"]
+geo_ids = [154979, 155025, 154967, 154956, 154950, 154922, 155038,
+           154909, 154962]
