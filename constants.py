@@ -172,8 +172,11 @@
 #            2630285, 2625791, 2625778, 2630288,
 #            2625789, 2630281, 2625780, 2625788,
 #            297545, 2625792, 2625794]
+#
+# cities = ["Ontario", "Quebec", "Nova_Scotia", "New_Brunswick", "Manitoba", "British_Columbia", "Saskatchewan",
+#           "Alberta", "Newfoundland_and_Labrador"]
+# geo_ids = [154979, 155025, 154967, 154956, 154950, 154922, 155038,
+#            154909, 154962]
 
-cities = ["Ontario", "Quebec", "Nova_Scotia", "New_Brunswick", "Manitoba", "British_Columbia", "Saskatchewan",
-          "Alberta", "Newfoundland_and_Labrador"]
-geo_ids = [154979, 155025, 154967, 154956, 154950, 154922, 155038,
-           154909, 154962]
+cities = ["Central_Region", "Western_Region", "Northern_Region", "Eastern_Region"]
+geo_ids = [3685410, 3685413, 3685412, 3685411]
