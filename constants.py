@@ -178,5 +178,8 @@
 # geo_ids = [154979, 155025, 154967, 154956, 154950, 154922, 155038,
 #            154909, 154962]
 
-cities = ["Central_Region", "Western_Region", "Northern_Region", "Eastern_Region"]
-geo_ids = [3685410, 3685413, 3685412, 3685411]
+# cities = ["Central_Region", "Western_Region", "Northern_Region", "Eastern_Region"]
+# geo_ids = [3685410, 3685413, 3685412, 3685411]
+
+cities = ["Central_Poland", "Southern_Poland", "Western_Poland", "Northern_Poland"]
+geo_ids = [274820, 274753, 274794, 2424519]
