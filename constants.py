@@ -184,7 +184,12 @@
 # cities = ["Central_Poland", "Southern_Poland", "Western_Poland", "Northern_Poland"]
 # geo_ids = [274820, 274753, 274794, 2424519]
 
-cities = ["Greater_Accra", "Ashanti_Region", "Northern_Region", "Western_Region", "Central_Region", "Eastern_Region",
-          "Upper_West_Region", "Brong_Ahafo_Region", "Volta_Region"]
-geo_ids = [2437736, 2437729, 2437727, 2437730, 2437735, 2437732,
-           2437724, 2437728, 2437733]
+# cities = ["Greater_Accra", "Ashanti_Region", "Northern_Region", "Western_Region", "Central_Region", "Eastern_Region",
+#           "Upper_West_Region", "Brong_Ahafo_Region", "Volta_Region"]
+# geo_ids = [2437736, 2437729, 2437727, 2437730, 2437735, 2437732,
+#            2437724, 2437728, 2437733]
+
+cities = ["Eastern_Cape", "Free_State", "Gauteng", "KwaZulu_Natal", "Limpopo_Province", "Mpumalanga",
+          "North_West_Province", "Northern_Cape", "Western_Cape"]
+geo_ids = [312554, 312563, 312568, 312592, 312611, 312628,
+           312647, 312641, 312653]
