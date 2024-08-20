@@ -189,7 +189,12 @@
 # geo_ids = [2437736, 2437729, 2437727, 2437730, 2437735, 2437732,
 #            2437724, 2437728, 2437733]
 
-cities = ["Eastern_Cape", "Free_State", "Gauteng", "KwaZulu_Natal", "Limpopo_Province", "Mpumalanga",
-          "North_West_Province", "Northern_Cape", "Western_Cape"]
-geo_ids = [312554, 312563, 312568, 312592, 312611, 312628,
-           312647, 312641, 312653]
+# cities = ["Eastern_Cape", "Free_State", "Gauteng", "KwaZulu_Natal", "Limpopo_Province", "Mpumalanga",
+#           "North_West_Province", "Northern_Cape", "Western_Cape"]
+# geo_ids = [312554, 312563, 312568, 312592, 312611, 312628,
+#            312647, 312641, 312653]
+
+cities = ["Northern_Mexico", "Southern_Mexico", "Jalisco", "Central_Mexico_and_Gulf_Coast", "Baja_California",
+          "Pacific_Coast", "Yucatan_Peninsula"]
+geo_ids = [150778, 3194809, 1575477, 150796, 150769,
+           150786, 150805]
